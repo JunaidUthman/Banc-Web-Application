@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Assure que les bordures et les paddings sont inclus dans la taille totale des éléments */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Prendre toute la hauteur de la fenêtre */
+    font-family: Arial, sans-serif;
+    background-color: #aeaeae; /* Couleur de fond pour tout le body */
+    overflow: hidden; /* Empêche le défilement vertical ou horizontal */
+}
+
+.title {
+    display: flex;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement */
+    height: 100px; /* Fixer une hauteur spécifique à la div contenant le titre */
+    text-align: center; /* Assure que le texte à l'intérieur de la division est centré */
+}
+
+.title h1 {
+    color: #ffeb3b; /* Couleur jaune pour le titre */
+    font-size: 48px; /* Taille de la police du titre */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Alignement des éléments en haut */
+    height: calc(100vh - 100px); /* Réduit la hauteur disponible après le titre */
+    padding: 20px;
+    overflow-y: auto; /* Permet de défiler si nécessaire dans le conteneur */
+    flex-wrap: wrap; /* Permet aux boîtes de passer à la ligne si l'espace est insuffisant */
+}
+
+.box {
+    background-color: #333;
+    width: 300px;
+    height: 450px; /* Définir une hauteur fixe pour toutes les boîtes */
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 2px solid #ffeb3b; /* Border jaune */
+    color: #ffeb3b; /* Couleur du texte jaune */
+    text-align: center;
+    margin: 10px; /* Espacement entre les boîtes */
+    flex: 1 1 300px; /* Permet à chaque boîte d'avoir une largeur minimale de 300px, mais de se redimensionner si nécessaire */
+}
+
+.box h2 {
+    margin-bottom: 20px;
+}
+
+.box label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.box input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ffeb3b; /* Border jaune */
+    border-radius: 4px;
+    background-color: #444;
+    color: #fff;
+}
+
+.box input[type="submit"] {
+    background-color: #ffeb3b; /* Bouton jaune */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.box input[type="submit"]:hover {
+    background-color: #fdd835; /* Couleur plus foncée au survol */
+}
+
+img {
+    width: 100%; /* L'image prend la largeur de la boîte */
+    height: 200px; /* Fixer une hauteur fixe pour les images */
+    object-fit: cover; /* Assure que l'image s'adapte correctement sans déformer */
+    margin-bottom: 15px;
+}
+.img_3{
+    margin:35px;
+    position: relative;
+    right: 38px;
+    top: 18px;
+}

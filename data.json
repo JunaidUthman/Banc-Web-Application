@@ -1,0 +1,50 @@
+[
+    {
+        "email": "junaiduthman370@gmail.com",
+        "password": "123",
+        "type": "carnet",
+        "RIB": "675f77ce9fdb7",
+        "Nom": "UTHMAN JUNAID",
+        "Solde": 466
+    },
+    {
+        "email": "juman370@gmail.com",
+        "password": "111",
+        "type": "chequier",
+        "RIB": "675f7a0c9fb16",
+        "Nom": "JUNAID UTHMAN",
+        "Solde": 31.599999999999994
+    },
+    {
+        "email": "ahmednasri@gmail.com",
+        "password": "123",
+        "type": "carnet",
+        "RIB": "675f7dde8f5c5",
+        "Nom": "ahmad loghi",
+        "Solde": 1000
+    },
+    {
+        "email": "uthman555@gmail.com",
+        "password": "111",
+        "type": "carnet",
+        "RIB": "675f965ab6e69",
+        "Nom": "JUNAID UTHMAN",
+        "Solde": 1111
+    },
+    {
+        "email": "junaiduthman123@gmail.com",
+        "password": "100",
+        "RIB": "67605ae9abba6",
+        "Nom": "junaid uthman",
+        "Solde": 190,
+        "type": "chequier"
+    },
+    {
+        "email": "junaiduthman111@gmail.com",
+        "password": "1234",
+        "RIB": "67b8f8f221c3c",
+        "Nom": "JUNAID UTHMAN",
+        "Solde": 200,
+        "type": "chequier"
+    }
+]
